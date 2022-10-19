@@ -21,7 +21,7 @@ app.get("/hello", middleware, function (req, res) {
 });
 
 app.post("/hello", middleware, function (req, res) {
-  console.log("Post iseği için istek gönderildi");
+  console.log("Post isteği için istek gönderildi");
   res.json("Merhaba, POST isteği attınız");
 });
 
