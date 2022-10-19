@@ -10,6 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const middleware = function (req, res, next) {
+  console.log("middleware çalıştırıldı...");
   next();
 };
 
